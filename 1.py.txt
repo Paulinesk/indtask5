@@ -1,0 +1,8 @@
+print("Диаметр бревна: ")
+D = float(input())
+print("Ширина бруса: ")
+A = float(input())
+if (A <= D/(2**1/2)):
+	print("Да, можно")
+else:
+	print("Нет, нельзя")
